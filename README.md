@@ -6,7 +6,7 @@ Use in a GitLab CI like so:
 
 ```yaml
 integration-tests:
-  image: docker.itsdev.net/siemens/docker-compose-ci:latest
+  image: davedupplaw/docker-compose-ci:latest
   script:
     - docker-compose up --abort-on-container-exit
 ```
